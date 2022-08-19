@@ -1,16 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using KodotiAzureDevOps.Api.Controllers;
 using KodotiAzureDevOps.Services.InMemoryData;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-
-namespace KodotiAzureDevOps.Tests
+namespace KodotiAzureDevOps2.Tests
 {
     [TestClass]
-    public class UserControllerGetTest
+    public class UserControllerGetAllTest
     {
         [TestMethod]
-        public void TryToGetNotFoundStatusCode()
+        public void TryToGetOkStatusCode()
         {
             ApplicationDbContext.Initialize();
 
@@ -18,10 +19,10 @@ namespace KodotiAzureDevOps.Tests
             var controller = new UserController();
 
             // Find a record by USD code
-            var result = controller.Get(Guid.NewGuid());
+            var result = controller.GetAll();
 
             // Check
-            Assert.IsInstanceOfType(result, typeof(NotFoundResult));
+            Assert.IsInstanceOfType(result, typeof(OkObjectResult));
         }
     }
 }
