@@ -17,9 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodotiAzureDevOps.Services"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodotiAzureDevOps.Models", "src\KodotiAzureDevOps.Models\KodotiAzureDevOps.Models.csproj", "{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8A5AA500-0774-4CD1-AC13-118A4998E353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodotiAzureDevOps.Tests", "src\KodotiAzureDevOps.Tests\KodotiAzureDevOps.Tests.csproj", "{8FC9779C-5946-4562-A644-A1D807C84C13}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodotiAzureDevOps2.Tests", "src\KodotiAzureDevOps2.Tests\KodotiAzureDevOps2.Tests.csproj", "{95C91712-C6F0-4752-B1EB-3B70EE7457E7}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8A5AA500-0774-4CD1-AC13-118A4998E353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +39,14 @@ Global
 		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC9779C-5946-4562-A644-A1D807C84C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC9779C-5946-4562-A644-A1D807C84C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC9779C-5946-4562-A644-A1D807C84C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC9779C-5946-4562-A644-A1D807C84C13}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A5AA500-0774-4CD1-AC13-118A4998E353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A5AA500-0774-4CD1-AC13-118A4998E353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5AA500-0774-4CD1-AC13-118A4998E353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5AA500-0774-4CD1-AC13-118A4998E353}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95C91712-C6F0-4752-B1EB-3B70EE7457E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95C91712-C6F0-4752-B1EB-3B70EE7457E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95C91712-C6F0-4752-B1EB-3B70EE7457E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95C91712-C6F0-4752-B1EB-3B70EE7457E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,7 +55,7 @@ Global
 		{B2240B97-DFD6-4647-B3CE-0FB19382A090} = {43F62C60-D83B-4FD2-9FCA-988C42985BC5}
 		{BC56444F-4F5B-4810-8C48-494311D4507D} = {24C9441A-2EC7-489B-B46A-65CA2B2FE41B}
 		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD} = {592451F1-F946-451B-9C1D-7768C88E38A0}
-		{95C91712-C6F0-4752-B1EB-3B70EE7457E7} = {F82DA3FE-D557-499E-9E41-7D44E051F61D}
+		{8FC9779C-5946-4562-A644-A1D807C84C13} = {F82DA3FE-D557-499E-9E41-7D44E051F61D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA025C67-3236-4B79-8335-05509210A6D3}
